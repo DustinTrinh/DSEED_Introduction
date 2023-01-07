@@ -1,0 +1,63 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centeredContent{
+    margin-top: 40%;
+    margin-left: 20%;
+    width: 80%;
+    height: 80%;
+    
+}
+
+.illustrationSizing{
+    max-width: 60%;
+    height: auto;
+    margin-top: 20%;
+}
+
+.illuGrid{
+    text-align: center;
+}
+
+@media only screen and (min-width: 1410px) {
+    .illustrationSizing{
+        margin-top: 15% !important;
+    }
+  }
+@media only screen and (min-width: 900px), (max-width: 1400px) {
+    .illustrationSizing{
+        margin-top: 20% !important;
+    }
+  }
+
+  @media only screen and (max-width: 899px) {
+    .illustrationSizing{
+        margin-top: 10%;
+    }
+  }
+
+  @media only screen and (min-width: 600px),(max-width: 899px) {
+    .illustrationSizing{
+        max-width: 100%;
+    }
+    .illustrationSizing{
+        margin-top: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .illustrationSizing{
+        display: none;
+    }
+  }

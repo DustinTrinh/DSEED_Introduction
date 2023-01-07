@@ -1,0 +1,41 @@
+.participantDiv{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.header_{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.cardContent{
+    text-align: center;
+}
+.cardContent ul{
+    display: inline-block;
+  text-align: left;
+}
+
+.cardTitle{
+    text-align: center;
+}
+
+.avatar{
+    width: 200px !important;
+    height: 200%;
+    padding-top: 30px;
+}
+
+.stackContent a{
+    color: #C04040;
+}
+
+@media only screen and (max-width: 900px) {
+    .dustin{
+        justify-content: center !important;
+    }
+
+    .sherry{
+        justify-content: center !important;
+    }
+  }

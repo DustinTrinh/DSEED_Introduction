@@ -1,0 +1,48 @@
+.footerDiv{
+    background-color: #000000;
+}
+
+.footerDiv h2{
+    color: #f1b24a;
+}
+
+.footerDiv a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerDiv a:hover{
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    color: #BCBCBC;
+}
+
+.newsletterHeader{
+    padding-bottom: 15px;
+}
+
+.subscriptionButton{
+    margin-top: 20px;
+    color: #000000 !important;
+    background-color: #f1b24a !important;
+    border-color: #f1b24a !important;
+}
+
+.emailInput{
+    width: 70% !important;
+}
+
+.brandSocial{
+    padding-left: 10% !important;
+}
+
+.brandSocial h2{
+    padding-bottom: 15px;
+}
+
+.footerGrid{
+    padding-top: 20px;
+}

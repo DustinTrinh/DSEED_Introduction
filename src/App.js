@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Fragment } from 'react';
+import LandingPage from './Components/LandingSection/JS/LandingPage';
+import NavBar from './Components/LandingSection/JS/NavBar';
+import OverviewCarousel from './Components/OverviewSection/JS/OverviewCarousel';
+import EcosystemTimeline from './Components/TimelineSection/JS/EcosystemTimeline';
+import Participants from './Components/ParticipantsSection/JS/Participants';
+import FooterSection from './Components/FooterSection/JS/FooterSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <NavBar/>
+      <LandingPage/>
+      <OverviewCarousel/>
+      <EcosystemTimeline/>
+      <Participants/>
+      <FooterSection/>
+    </Fragment>
   );
 }
 

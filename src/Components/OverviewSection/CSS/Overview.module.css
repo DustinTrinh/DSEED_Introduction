@@ -1,0 +1,41 @@
+.carouselImg{
+    filter: brightness(50%);
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carouselContent{
+    color: white;
+    width: 50%;
+    left: 25% !important;
+}
+
+
+.nextIconStyling{
+    color: #000000;
+}
+
+.prevIconStyling{
+    color: #000000;
+}
+
+.header{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.overviewDiv{
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+@media only screen and (max-width: 599px) {
+    .carouselHeader{
+        font-size: 20px;
+    }
+    .carouselDesc{
+        font-size: 12px;
+    }
+  }
